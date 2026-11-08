@@ -3,37 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Stream</title>
+    <title>Jujutsu Kaisen - Savage Sorcerer</title>
+
+    <!-- Discord Video Player Embed Meta Tags -->
+    <meta property="og:title" content="Jujutsu Kaisen Season 2 Episode 17" />
+    <meta property="og:description" content="Episode with extended cut and extra content." />
+    <meta property="og:type" content="video.other" />
+    
+    <!-- Direct Streaming Links for Discord's Internal Chat Engine -->
+    <meta property="og:video" content="https://api.x-downloader.com/v/wd4jbj/SAVAGE_SORCERER_-_Full_Jujutsu_Kaisen_episode_17_revised_and_extended_cuts_Blu-Ray_4k_w_QgHTDh.mp4" />
+    <meta property="og:video:secure_url" content="https://api.x-downloader.com/v/wd4jbj/SAVAGE_SORCERER_-_Full_Jujutsu_Kaisen_episode_17_revised_and_extended_cuts_Blu-Ray_4k_w_QgHTDh.mp4" />
+    <meta property="og:video:type" content="video/mp4" />
+    <meta property="og:video:width" content="1280" />
+    <meta property="og:video:height" content="720" />
+
+    <!-- Webpage Video Player Styling -->
     <style>
         body {
             margin: 0;
+            padding: 0;
             background-color: #0b0b0b;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
         .video-container {
             width: 100%;
-            max-width: 900px;
+            max-width: 960px;
             padding: 20px;
             box-sizing: border-box;
         }
         video {
             width: 100%;
             height: auto;
-            border-radius: 8px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            background-color: #000;
+            border-radius: 12px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+            background-color: #000000;
+            outline: none;
         }
     </style>
 </head>
 <body>
 
     <div class="video-container">
+        <!-- The Actual On-Page Web Player (Plays Inline on iOS/Mobile & Prevents Random Downloads) -->
         <video controls preload="metadata" playsinline crossorigin="anonymous">
             <source src="https://api.x-downloader.com/v/wd4jbj/SAVAGE_SORCERER_-_Full_Jujutsu_Kaisen_episode_17_revised_and_extended_cuts_Blu-Ray_4k_w_QgHTDh.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+            Your browser does not support the HTML5 video tag.
         </video>
     </div>
 
